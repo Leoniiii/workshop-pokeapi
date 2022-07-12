@@ -8,5 +8,5 @@ services:
     expose:
       - 3080
     ports:
-      - '3080:3000'
+      - '3080:3001'
     command: './.docker/node/run.sh'
